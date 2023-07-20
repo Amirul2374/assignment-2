@@ -292,7 +292,7 @@
     text-align: center;
    
 }
- .last-part{
+.last-part{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -379,4 +379,22 @@ background-clip: text;
     padding-top: 20px;
     text-decoration: none;
     
+}
+
+
+/* responsive media query */
+
+
+/* mobile devices */
+@media screen and (max-width:576px) {
+    .last-pra, .ast-story,.last-part,.ourGamesBox,.funny-5,.full-instantly,.gamerSection,.heroBanner,.navItem,.navMenuContainer,{
+        flex-direction: column;
+
+    }
+   
+}
+@media  screen and (min-width:576px) and (max-width:960px) 
+    .last-pra, .ast-story,.last-part,.ourGamesBox,.funny-5,.full-instantly,.gamerSection,.heroBanner,.navItem,.navMenuContainer,{
+        
+
 }
